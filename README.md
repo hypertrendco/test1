@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/hypertrendco/test1/pulls">
+    <img src="https://badgen.net/github/prs/hypertrendco/test1" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/hypertrendco/test1" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">

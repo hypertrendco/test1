@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Override, Menu, Section } from "@quarkly/components";
+import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -29,7 +29,112 @@ export default (() => {
 				<Override slot="item" padding="6px" />
 			</Menu>
 		</Section>
-		<Section />
+		<Section padding="64px 0" sm-padding="40px 0" color="--dark" hover-color="#3b71a8">
+			<Stack>
+				<StackItem width="33.33%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text as="h2" font="--headline1" margin="0 0 8px 0">
+						FAQs
+					</Text>
+					<Text as="p" font="--lead" margin="0" color="--greyD2">
+						Need answers? We got’em
+					</Text>
+				</StackItem>
+				<StackItem width="66.66%" md-width="100%">
+					<Stack>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								Is there life on Mars?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								Why is the sky blue?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								When will we get there?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								How much salt is in the ocean?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+					</Stack>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section padding="64px 0" sm-padding="40px 0" color="--dark">
+			<Stack>
+				<StackItem width="33.33%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text as="h2" font="--headline1" margin="0 0 8px 0">
+						FAQs
+					</Text>
+					<Text as="p" font="--lead" margin="0" color="--greyD2">
+						Need answers? We got’em
+					</Text>
+				</StackItem>
+				<StackItem width="66.66%" md-width="100%">
+					<Stack>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								Is there life on Mars?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								Why is the sky blue?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								When will we get there?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" flex-direction="column" />
+							<Text as="h3" font="--headline3" margin="12px 0">
+								How much salt is in the ocean?
+							</Text>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</StackItem>
+					</Stack>
+				</StackItem>
+			</Stack>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
